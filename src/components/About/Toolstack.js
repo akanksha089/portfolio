@@ -7,6 +7,7 @@ import {
   SiVercel,
   SiMacos,
 } from "react-icons/si";
+import { DiLinux } from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -25,6 +26,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiLinux />
       </Col>
     </Row>
   );

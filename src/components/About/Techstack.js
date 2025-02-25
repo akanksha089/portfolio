@@ -6,16 +6,16 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
-  DiGit,
+  DiWordpress ,
+  DiCss3 ,
   DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
+  SiHtml5 ,
+  SiBootstrap ,
   SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiTailwindcss ,
+  SiPostgresql, SiExpress, SiMysql , SiSocketdotio 
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -23,14 +23,9 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
@@ -38,7 +33,7 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
@@ -47,22 +42,28 @@ function Techstack() {
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiTailwindcss  />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiBootstrap  />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiHtml5  />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3   />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiMysql  />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiSocketdotio  />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiWordpress   />
       </Col>
     </Row>
   );
